@@ -1,0 +1,64 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+    padding: 14px 16px;
+}
+
+.picture{
+
+background: url(https://www.deakin.edu.au/__data/assets/image/0018/618120/4441_Waterfront.jpg) no-repeat;
+}
+.text_hover{
+width:840px;
+height:400px;
+background:rgb(250, 242, 242);
+opacity:0;
+}
+.picture:hover .text_hover
+{
+opacity:0.5;
+text-align:justify;
+color:#0c0b0b;
+font-family:"Times New Roman", Times, serif;
+padding:31px;
+}
+
+div.gallery {
+  border: 2px solid #ccc;
+}
+
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+.resp {
+  padding: 0 5px;
+  float: left;
+  width: 24%;
+}
+
+@media only screen and (max-width: 690px) {
+  .resp {
+    width: 49%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 490px) {
+  .resp {
+    width: 100%;
+  }
+}
